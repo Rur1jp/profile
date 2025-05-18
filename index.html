@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            font-family: 'Segoe UI', sans-serif;
+            margin: 0;
+            background-image: url('https://cdn.discordapp.com/attachments/1354825204303659271/1373707770540462140/IMG_4624.jpg?ex=682b648e&is=682a130e&hm=2a72a25714889fdaaab9f8aaffa745203fecdf5957878148199d0099871e5a25&');
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            color: #333;
+            line-height: 1.6;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        .container {
+            background-color: rgba(255, 255, 255, 0.8);
+            border-radius: 10px;
+            padding: 40px;
+            text-align: center;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+            max-width: 800px;
+            width: 90%;
+        }
+
+        header {
+            margin-bottom: 30px;
+        }
+
+        .icon {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-bottom: 15px;
+        }
+
+        h1 {
+            font-size: 2.5em;
+            margin-bottom: 5px;
+            color: #555;
+        }
+
+        .pronoun {
+            color: #777;
+            font-size: 1.1em;
+            margin-bottom: 20px;
+        }
+
+        main {
+            margin-bottom: 30px;
+        }
+
+        .description {
+            font-size: 1.1em; /* 説明の文字を少し小さく */
+            color: #444;
+            margin-bottom: 25px;
+        }
+
+        .skills h2 {
+            font-size: 1.8em;
+            color: #555;
+            margin-bottom: 15px;
+            border-bottom: 2px solid #eee;
+            padding-bottom: 10px;
+        }
+
+        .skills ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .skills li {
+            margin-bottom: 10px;
+            font-size: 1.1em;
+            color: #444;
+        }
+
+        footer {
+            color: #777;
+            font-size: 0.9em;
+            padding-top: 20px;
+            border-top: 1px solid #eee;
+        }
+
+        /* フェードインのアニメーション */
+        .fade-in {
+            opacity: 0;
+            animation: fadeIn 1s ease-out forwards;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+    </style>
+</head>
+<body>
+    <div class="container fade-in">
+        <header>
+            <img src="https://cdn.discordapp.com/attachments/1354825204303659271/1373707408500592710/IMG_4585.png?ex=682b6438&is=682a12b8&hm=e49ee14d6219500046e49dde42d248a755fdaddb4bc4ab71f262c3a5e74ca240&" alt="るるのアイコン" class="icon">
+            <h1>るる</h1>
+            <p class="pronoun">界隈 見習い技術者</p>
+        </header>
+        <main>
+            <p class="description">
+                るるです、htmlとpy勉強してます。discordのちょっとしたbotやちょっとしたサイトなど作れます。
+            </p>
+            <section class="skills">
+                <h2>できること</h2>
+                <ul>
+                    <li>HTML</li>
+                    <li>Python</li>
+                    <li>Discord Bot作成</li>
+                    <li>Webサイト作成</li>
+                </ul>
+            </section>
+        </main>
+        <footer>
+            <p>&copy; 2025 るる</p>
+        </footer>
+    </div>
+</body>
+</html>
